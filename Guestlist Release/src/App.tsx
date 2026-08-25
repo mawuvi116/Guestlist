@@ -7,7 +7,7 @@ import {
 type Status = { title: string; text: string; progress?: number; tone?: "error" | "success" } | null;
 type Sort = "popularity" | "newest" | "oldest" | "name";
 
-const fallbackTicker = ["SZA", "Tems", "Wizkid", "Kendrick Lamar", "Rihanna", "Lecrae", "Miles Minnick", "Mariah The Scientist"];
+const fallbackTicker = ["Miles Minnick", "Tems", "We The Kingdom", "Kendrick Lamar", "Rihanna", "Lecrae", "SZA", "Mariah The Scientist", "Andrew David", "KB", "Forrest Frank", "Wizkid", "Parris Chariz"];
 
 export default function App() {
   const [connected, setConnected] = useState(hasSession());
